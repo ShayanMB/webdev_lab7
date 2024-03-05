@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Your Title Here</title>
+  <title>Planetary Fact Sheet</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>Planetary Fact Sheet</h1>
-  <table id="planets">
+  <div id="container">
+    <h1>Planetary Fact Sheet</h1>
+    <table id="planets">
     <tr>
       <th></th>
       <th>Earth</th>
@@ -15,15 +17,15 @@
       <th>Saturn</th>
       <th>Jupiter</th>
     </tr>
-    <tr>
-      <td>Images of my 4 planets</td>
+    <tr class="pictures-row">
+      <td>Pictures</td>
       <td><img src="images/planet_1.jpeg" alt="Earth" width="400" height="400"></td>
       <td><img src="images/planet_2.jpeg" alt="Mars" width="400" height="400"></td>
       <td><img src="images/planet_3.webp" alt="Saturn" width="400" height="400"></td>
       <td><img src="images/planet_4.png" alt="Jupiter" width="400" height="400"></td>
     </tr>
     <tr>
-      <td>Mass (10^24kg)</td>
+      <td>Mass (10<sup>24</sup> kg)</td>
       <td>5.97</td>
       <td>0.642</td>
       <td>568</td>
@@ -37,14 +39,14 @@
       <td>142,984</td>
     </tr>
     <tr>
-      <td>Density (kg/m^3)</td>
+      <td>Density (kg/m<sup>3</sup>)</td>
       <td>5,513</td>
       <td>3,934</td>
       <td>687</td>
       <td>1,326</td>
     </tr>
     <tr>
-      <td>Gravity (m/s^2)</td>
+      <td>Gravity (m/s<sup>2</sup>)</td>
       <td>9.8</td>
       <td>3.7</td>
       <td>9.0</td>
@@ -65,11 +67,13 @@
       <td>9.9</td>
     </tr>
     <tr>
-      <td>Distance from Sun (10^6 km)</td>
+      <td>Distance from Sun (10<sup>6</sup> km)</td>
       <td>149.6</td>
       <td>228.0</td>
       <td>1,432.0</td>
       <td>778.5</td>
     </tr>
   </table>
+  </div>
 </body>
+</html>

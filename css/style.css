@@ -1,4 +1,77 @@
-td, th {
-	border: 1px solid;
-  }
-  
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+html, body {
+  height: 100%;
+}
+
+#container {
+  position: relative;
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  padding: 20px;
+  background-color: #262626;
+  color: white;
+  margin: 0;
+}
+
+#planets {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
+  border: 2px solid white;
+}
+
+#planets th {
+  border: 1px solid white;
+  background-color: #262626;
+  color: white;
+  padding: 10px;
+}
+
+#planets td img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#planets .pictures-row {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+#planets .pictures-row td {
+  border-right: 1px solid white;
+}
+
+#planets .pictures-row td:last-child {
+  border-right: none;
+}
+
+#planets tr:not(.pictures-row) td {
+  border: 1px solid white;
+  background-color: transparent;
+  color: #fff;
+  padding: 10px;
+}
+
+#planets tr:hover:not(.pictures-row) {
+  background-color: #e0e0e0;
+  color: #333;
+}
